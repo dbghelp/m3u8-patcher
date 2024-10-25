@@ -59,7 +59,7 @@ def main(playlist_file, epg_url):
         with open(playlist_file, 'w') as file:
             file.writelines(updated_playlist_lines)
 
-        print(f"Patched '{playlist_file}' with new tvg-id values and tvg-url.")
+        print(f"Patched '{playlist_file}' with new tvg-id values and url-tvg.")
 
     except FileNotFoundError:
         print(f"Error: The file '{playlist_file}' does not exist.")
