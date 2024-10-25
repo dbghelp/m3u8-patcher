@@ -4,6 +4,6 @@ Scans for `tvg-id` values of channels in a provided EPG XML URL and patches the 
 
 ## Usage
 
-'''
+```
 python m3u8_patcher.py playlist.m3u8 "http://example.com/epg.xml"
-'''
+```
